@@ -1,0 +1,48 @@
+.header img{
+    height: 90px;
+    margin-bottom: 20px;
+}
+.header {
+    text-align: center; 
+}
+.header nav{
+    background: #000;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+.header nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px ;
+    padding: 11px;
+} 
+.header nav a:hover{
+    color: white;
+    background: rgb(150, 148, 148);
+} 
+.searchS{
+    background-color: rgb(39, 38, 38);
+    line-height: 80px;
+    text-align: center;
+}
+.searchS input{
+    width: 80%;
+    
+    height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.searchS span {
+    color: #6cbd10;
+    font-size: 22px;
+}
+.searchS img{
+    height: 30px;
+    
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    

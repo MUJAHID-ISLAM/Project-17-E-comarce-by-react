@@ -1,0 +1,22 @@
+.shop-contain{
+
+}
+.product-contain{
+width: 75%;
+float: left;
+padding-left: 150px;
+margin-right: 10px;
+border-right: 1px solid rgb(170, 170, 170);
+margin-bottom: 50px;
+padding-right: 20px;
+}
+.card-contain{
+
+}
+
+.right-container{
+
+}
+.nana{
+    height: 500px;
+}
