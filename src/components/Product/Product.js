@@ -3,7 +3,7 @@ import React from 'react';
 import './Product.css';
 import addImg from '../../images/car2.png'
 const Product = (props) => {
-    const {name, img, price, stock, seller} =props.productName;
+    const {name, img, price, stock, seller} = props.productName;
     
     return (
         <div className="components">
@@ -16,7 +16,7 @@ const Product = (props) => {
             <p id ="brand">Brand: {seller}</p>
             <p>$ {price}</p>
              <p>only <spin id="stock">{stock} </spin> left in stock - order soon </p>
-            <button className="AddButton" onClick={() => props.handleAdd(props.Product)}><img src={addImg} alt=""/>Add to cart</button>
+            <button className="AddButton" onClick={() => props.handleAdd(props.productName)}><img src={addImg} alt=""/>Add to cart</button>
             
             {/* {props.productName.features.map(re => console.log(re))} */}
             </div>
